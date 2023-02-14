@@ -1,0 +1,106 @@
+nav{
+    font-size:40px;
+    font-family:"Copperplate", fantasy;
+    font-weight:"bold","italic";
+    color:darksalmon;
+}
+body{
+    background-color:lightgray;
+}
+.homepage{
+    color:darksalmon;
+}
+.homepage:hover{
+    color:#000000;
+}
+.gallerypage{
+    color:darksalmon;
+}
+.gallerypage:hover{
+    color:#000000;
+}
+footer{
+    color:darksalmon;
+    bottom:10px;
+    text-align:center;
+}
+.email{
+    color:darksalmon;
+    font-weight:normal;
+}
+.bold{
+    font-weight:bold;
+    font-style:italic;
+}
+p{
+    text-align:center;
+}
+.thanks{
+    color:#000000
+}
+.imgfloat{
+    float:left;
+    padding-left:250px;
+}
+.aboutmetitle{
+    color:darksalmon;
+    font-weight:bold;
+    font-family:"Copperplate", fantasy;
+    font-size:30px;
+    text-align:center;
+}
+.aboutme{
+    color:#000000;
+    font-size:20px;
+    text-align:center;
+    font-weight: normal;
+    font-family:"Gill Sans", sans-serif;
+}
+.aboutmetext{
+    display:block;
+    column-width: 500px;
+    height: auto;
+    padding:55px 105px 105px 105px;
+}
+#gallery{
+   line-height:0;
+   -webkit-column-count:5;
+   -webkit-column-gap:5px;
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
+#gallery img{
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px;
+}
+@media (max-width: 1200px){
+   #gallery{
+    -moz-column-count:    4;
+    -webkit-column-count: 4;
+    column-count:         4;
+   }
+}
+@media (max-width: 1000px){
+   #gallery{
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+   }
+}
+@media (max-width: 800px){
+   #gallery{
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+@media (max-width: 400px){
+   #gallery{
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
