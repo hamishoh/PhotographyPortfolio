@@ -5,8 +5,8 @@
     height:150px;
     margin:0px;
     padding:0px;
-    background-color: darksalmon;
-    outline-color: darksalmon;
+    background-color: #2D2B55;
+    outline-color: #2D2B55;
 }
 html{
     margin:0px;
@@ -39,11 +39,11 @@ body{
     color:lightgray;
 }
 footer{
-    color:darksalmon;
+    color:#2D2B55;
     text-align:center;
 }
 .email{
-    color:darksalmon;
+    color:#2D2B55;
     font-weight:normal;
     text-align:center;
 }
@@ -55,7 +55,7 @@ p{
     text-align:center;
 }
 .thanks{
-    color:#000000
+    color:#2D2B55;
 }
 .imgfloat{
     float:left;
@@ -65,23 +65,19 @@ p{
     right:70px;
 }
 .aboutmetitle{
-    color:darksalmon;
+    color:#2D2B55;
     font-weight:bold;
     text-decoration: underline;
     font-family:"Copperplate", fantasy;
     font-size:30px;
     text-align:center;
-    position: relative;
-    right: 30px;
 }
 .aboutme{
-    color:#000000;
+    color:#2D2B55;
     font-size:20px;
     text-align:center;
     font-weight: normal;
     font-family:"Gill Sans", sans-serif;
-    position: relative;
-    right:30px;
 }
 .aboutmetext{
     display:block;
@@ -144,13 +140,13 @@ p{
         display:none;
     }
     footer{
-        color:darksalmon;
+        color:#2D2B55;
         bottom:10px;
         text-align:center;
     }
 }
 #contactme{
-    color:darksalmon;
+    color:#2D2B55;
     text-align:center;
     font-weight:bold;
     font-style: italic;
@@ -162,6 +158,7 @@ p{
     text-align:center;
     font-family:"Gill Sans", sans-serif;
     font-size:20px;
+    color:#2D2B55;
 }
 #instalogo{
     width:25px;
@@ -170,5 +167,5 @@ p{
     top:5px;
 }
 .instalink{
-    color:#000000;
+    color:#2D2B55;
 }
