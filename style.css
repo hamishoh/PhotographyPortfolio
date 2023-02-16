@@ -1,27 +1,45 @@
+#headerofpage{
+    position:relative;
+    bottom:50px;
+    width:100vw;
+    height:150px;
+    margin:0px;
+    padding:0px;
+    background-color: darksalmon;
+    outline-color: darksalmon;
+}
+html{
+    margin:0px;
+    padding:0px;
+}
 nav{
     font-size:40px;
     font-family:"Copperplate", fantasy;
     font-weight:"bold","italic";
-    color:darksalmon;
+    color:black;
+    position: relative;
+    top:50px;
+    text-shadow:1px 1px 2px lightgray;
 }
 body{
     background-color:lightgray;
+    margin:0px;
+    padding:0px;
 }
 .homepage{
-    color:darksalmon;
+    color:black;
 }
 .homepage:hover{
-    color:#000000;
+    color:lightgray;
 }
 .gallerypage{
-    color:darksalmon;
+    color:black;
 }
 .gallerypage:hover{
-    color:#000000;
+    color:lightgray;
 }
 footer{
     color:darksalmon;
-    bottom:10px;
     text-align:center;
 }
 .email{
@@ -42,13 +60,19 @@ p{
 .imgfloat{
     float:left;
     padding-left:250px;
+    position: relative;
+    top:30px;
+    right:70px;
 }
 .aboutmetitle{
     color:darksalmon;
     font-weight:bold;
+    text-decoration: underline;
     font-family:"Copperplate", fantasy;
     font-size:30px;
     text-align:center;
+    position: relative;
+    right: 30px;
 }
 .aboutme{
     color:#000000;
@@ -56,6 +80,8 @@ p{
     text-align:center;
     font-weight: normal;
     font-family:"Gill Sans", sans-serif;
+    position: relative;
+    right:30px;
 }
 .aboutmetext{
     display:block;
@@ -117,4 +143,29 @@ p{
         color:darksalmon;
         bottom:10px;
         text-align:center;
+    }
+    
+}
+#contactme{
+    color:darksalmon;
+    text-align:center;
+    font-weight:bold;
+    font-style: italic;
+    font-size:50px;
+    font-family:"Copperplate", fantasy;
+    text-decoration:underline;
+}
+#insta{
+    text-align:center;
+    font-family:"Gill Sans", sans-serif;
+    font-size:20px;
+}
+#instalogo{
+    width:25px;
+    height:auto;
+    position: relative;
+    top:5px;
+}
+.instalink{
+    color:#000000;
 }
